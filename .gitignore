@@ -1,0 +1,26 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+
+# Variables d'environnement (garder .env.example)
+.env
+.env.*
+!.env.example
+
+# Prisma
+generated/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Config Claude Code locale
+.claude/settings.local.json
+
+# Éditeur et système
+.idea/
+.DS_Store
+Thumbs.db
