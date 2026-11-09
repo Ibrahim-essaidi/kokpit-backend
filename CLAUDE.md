@@ -14,7 +14,15 @@ kokpit-backend/
 │   └── skills/        # skills du projet
 ├── docs/
 │   └── TECH.md        # stack technique
+├── src/
+│   ├── index.ts       # démarrage du serveur
+│   ├── app.ts         # assemblage de l'app Express
+│   ├── config/        # configuration (env, infos du package)
+│   ├── routes/        # déclaration des routes
+│   ├── controllers/   # handlers
+│   └── services/      # logique métier
 ├── package.json
 ├── pnpm-lock.yaml
-└── pnpm-workspace.yaml
+├── pnpm-workspace.yaml
+└── tsconfig.json
 ```
