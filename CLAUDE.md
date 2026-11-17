@@ -14,15 +14,20 @@ kokpit-backend/
 │   └── skills/        # skills du projet
 ├── docs/
 │   └── TECH.md        # stack technique
+├── prisma/
+│   └── schema.prisma  # schéma de la base (sans modèle pour l'instant)
 ├── src/
 │   ├── index.ts       # démarrage du serveur
 │   ├── app.ts         # assemblage de l'app Express
 │   ├── config/        # configuration (env, infos du package)
 │   ├── routes/        # déclaration des routes
 │   ├── controllers/   # handlers
-│   └── services/      # logique métier
+│   ├── services/      # logique métier
+│   └── repositories/  # accès aux données (client Prisma)
+├── .env.example       # variables d'environnement attendues
 ├── package.json
 ├── pnpm-lock.yaml
+├── prisma.config.ts   # config du CLI Prisma
 ├── pnpm-workspace.yaml
 └── tsconfig.json
 ```
