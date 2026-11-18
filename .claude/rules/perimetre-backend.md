@@ -1,6 +1,6 @@
 # Périmètre de travail — le backend, et rien d'autre
 
-**Le seul endroit où il est permis d'écrire de sa propre initiative, c'est l'arborescence de `kommit-backend/`.** Tout le reste est fermé par défaut : le repo `kommit-frontend/`, le dossier parent `kommit-perso/`, `~/.claude`, et n'importe quel autre dossier du système.
+**Le seul endroit où il est permis d'écrire de sa propre initiative, c'est l'arborescence de `kokpit-backend/`.** Tout le reste est fermé par défaut : le repo `kokpit-frontend/`, le dossier parent `kokpit-perso/`, `~/.claude`, et n'importe quel autre dossier du système.
 
 L'interdiction porte sur **l'emplacement du fichier**, pas sur la façon d'y arriver : un chemin absolu, un `cd`, un lien symbolique ou un script ne la contournent pas.
 
