@@ -20,6 +20,7 @@ kokpit-backend/
 │   ├── index.ts       # démarrage du serveur
 │   ├── app.ts         # assemblage de l'app Express
 │   ├── config/        # configuration (env, infos du package)
+│   ├── middlewares/   # CORS, 404, gestion d'erreur, ApiError
 │   ├── routes/        # déclaration des routes
 │   ├── controllers/   # handlers
 │   ├── services/      # logique métier
