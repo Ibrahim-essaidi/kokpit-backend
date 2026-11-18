@@ -24,7 +24,8 @@ kokpit-backend/
 │   ├── routes/        # déclaration des routes
 │   ├── controllers/   # handlers
 │   ├── services/      # logique métier
-│   └── repositories/  # accès aux données (client Prisma)
+│   ├── repositories/  # accès aux données (client Prisma)
+│   └── types/         # contrat de l'API partagé avec le front
 ├── .env.example       # variables d'environnement attendues
 ├── package.json
 ├── pnpm-lock.yaml
